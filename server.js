@@ -11,7 +11,7 @@ const {
 
 const app = express();
 
-const whiteListCORS = ["http://localhost:5173"];
+const whiteListCORS = ["https://social-network-frontend-sepia.vercel.app"];
 const options = {
   origin: (origin, callback) => {
     if (whiteListCORS.includes(origin) || !origin) {
