@@ -1,0 +1,48 @@
+{
+  "name": "project-socialnetwork",
+  "version": "1.0.0",
+  "description": "App of a socialnetwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Andrés Cifuentes [andrescf@outlook.com]",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrescf098/project-socialNetwork.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrescf098/project-socialNetwork/issues"
+  },
+  "homepage": "https://github.com/andrescf098/project-socialNetwork#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "mongoose-paginate-v2": "^1.7.23",
+    "mongoose-pagination": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
